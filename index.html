@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Movie List</title>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <style>
+      body {
+        background-color: aliceblue;
+      }
+      .movie-name {
+        padding: 25px 25px;
+        font: 12px arial;
+        border: solid;
+        border-width: 1px 0;
+      }
+      .movie-table {
+        border-collapse: collapse;
+        border: solid;
+        border-width: 1px;
+        text-align: left;
+        padding: 25px 25px;
+        margin: 100px;
+      }
+
+      .movie-table-main {
+        border-collapse: collapse;
+        border: solid;
+        border-width: 1px;
+        text-align: center;
+        margin: 150px;
+      }
+
+      .movie-list-caption{
+        background-color: gainsboro;
+        font: 20px arial;
+        color: black;
+        text-align:left;
+        padding:10px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script src="lib/react/react-with-addons.js"></script>
+    <script src="lib/react/react-dom.js"></script>
+    <script src="compiled/components/MovieTableRow.js"></script>
+    <script src="compiled/components/MovieTable.js"></script>
+    <script src="compiled/components/Search.js"></script>
+    <script src="compiled/components/App.js"></script>
+    <script src="compiled/index.js"></script>
+  </body>
+</html>
